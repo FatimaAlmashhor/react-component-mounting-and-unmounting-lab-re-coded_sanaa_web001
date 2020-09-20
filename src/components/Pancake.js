@@ -16,7 +16,7 @@ componentDidMount () {
 }
   // TODO: create a componentWillUnmount() which will clear the interval
 
-componentDidMount()new Promise(function(resolve, reject) {
+componentWillUnmount()new Promise(function(resolve, reject) {
   this.cleanUpInterval();
 });
   updateCounter = () => {
