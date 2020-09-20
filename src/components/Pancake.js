@@ -18,7 +18,7 @@ componentDidMount () {
 
 componentWillUnmount() {
   this.cleanUpInterval();
-});
+};
   updateCounter = () => {
     this.setState({
       timeCooked: this.state.timeCooked + 1
